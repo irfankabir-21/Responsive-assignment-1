@@ -112,8 +112,6 @@ header {
   border-radius: 8px;
 }
 
-
-
 /* MOBILE RESPONSIVE STARTS HERE */
 
 @media screen and (max-width: 576px) {
@@ -146,7 +144,7 @@ header {
     border-radius: 8px;
   }
 
-  .banner-img{
+  .banner-img {
     display: flex;
     justify-content: center;
     align-items: center;
