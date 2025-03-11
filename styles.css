@@ -1,0 +1,153 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Work sans;
+}
+
+.dark-01 {
+  color: #131313;
+}
+
+.dark-02 {
+  color: #424242;
+}
+
+.dark-03 {
+  color: #424242;
+}
+
+header {
+  background: rgba(255, 144, 14, 0.1);
+  margin: 0px auto;
+  padding: 50px 100px;
+  overflow: hidden;
+}
+
+/*Navbar started here*/
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.title {
+  color: var(--Dark-01, #131313);
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 50px;
+
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* banner section started here */
+
+.banner-section {
+  margin: 0px auto;
+}
+
+.banner-info{
+  margin: 0px auto;
+  width: 65%;
+}
+
+.para {
+  color: var(--Dark-03, #727272);
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.btn-primary {
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border-radius: 8px;
+  background: #ff900e;
+  border: none;
+  padding: 20px 24px;
+}
+
+.banner-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-section img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  
+  header{
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+
+    flex-direction: column;
+    gap: 45px;
+    margin: 0px;
+    padding: 0px;
+    padding: 50px 20px;
+  }
+  
+  .title {
+    color: var(--Dark-01, #131313);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 50px;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+
+    gap: 30px;
+  }
+
+}
