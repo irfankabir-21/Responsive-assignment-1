@@ -44,6 +44,15 @@ header {
   line-height: normal;
 }
 
+.title-02 {
+  color: #131313;
+font-size: 64px;
+font-family: Work Sans;
+font-weight: 700;
+word-wrap: break-word;
+text-align: center;
+}
+
 .nav-items {
   display: flex;
   justify-content: center;
@@ -112,6 +121,74 @@ header {
   border-radius: 8px;
 }
 
+/* Team section started here */
+
+main{
+  margin: 85px 100px;
+}
+
+.team-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 76px;
+  margin: 0px 80px;
+}
+
+.team-gallery {
+ display: flex;
+ flex-direction: column;
+ gap: 24px;
+}
+
+.first-row {
+  display: flex;
+  gap: 24px;
+}
+
+.second-row{
+  display: flex;
+  gap: 24px;
+}
+
+.images {
+  width: 300px;
+  height: 300px;
+}
+
+.images img{
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit:cover
+}
+
+.team-info-box{
+  margin-right: 50px;
+}
+
+.team-info-box h2,.team-info-box p{
+  text-align: start;
+  margin-bottom: 24px;
+}
+
+.team-info-box button{
+  margin-top: 32px;
+}
+
+/* Feature section started here */
+
+/* .feature-heading{
+  display: flex;
+  gap: 21px;
+}
+
+.side-feature{
+  width: 5px;
+  height: 108px;
+  background-color: #FF900E;
+} */
+
 /* MOBILE RESPONSIVE STARTS HERE */
 
 @media screen and (max-width: 576px) {
@@ -126,6 +203,8 @@ header {
     margin: 0px;
     padding: 0px;
     padding: 50px 20px;
+
+    padding-bottom: 25px;
   }
 
   .nav-items {
@@ -133,6 +212,12 @@ header {
   }
 
   /* banner section started here */
+
+  .banner-section h1{
+    font-size: 45px;
+    line-height: 65px;
+    
+  }
 
   .banner-section p {
     margin: 30px auto;
@@ -152,4 +237,34 @@ header {
     overflow: hidden;
     border-radius: 8px;
   }
+
+
+  /* Team section started here */
+
+  main{
+    margin: 45px 50px;
+  }
+  
+  .team-section{
+    flex-direction: column;
+    margin: 0px;
+  }
+  
+  .first-row {
+    flex-direction: column;
+  }
+  
+  .second-row{
+    flex-direction: column;
+  }
+  
+  .team-info-box{
+    margin: 0px;
+    text-align: center;
+  }
+  
+  .team-info-box h2,.team-info-box p{
+    text-align: center;
+  }
+  
 }
