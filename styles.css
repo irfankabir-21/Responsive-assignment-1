@@ -46,11 +46,11 @@ header {
 
 .title-02 {
   color: #131313;
-font-size: 64px;
-font-family: Work Sans;
-font-weight: 700;
-word-wrap: break-word;
-text-align: center;
+  font-size: 64px;
+  font-family: Work Sans;
+  font-weight: 700;
+  word-wrap: break-word;
+  text-align: center;
 }
 
 .nav-items {
@@ -123,11 +123,11 @@ text-align: center;
 
 /* Team section started here */
 
-main{
+main {
   margin: 85px 100px;
 }
 
-.team-section{
+.team-section {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,9 +136,9 @@ main{
 }
 
 .team-gallery {
- display: flex;
- flex-direction: column;
- gap: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .first-row {
@@ -146,7 +146,7 @@ main{
   gap: 24px;
 }
 
-.second-row{
+.second-row {
   display: flex;
   gap: 24px;
 }
@@ -156,38 +156,117 @@ main{
   height: 300px;
 }
 
-.images img{
+.images img {
   width: 100%;
   height: 100%;
   border-radius: 8px;
-  object-fit:cover
+  object-fit: cover;
 }
 
-.team-info-box{
+.team-info-box {
   margin-right: 50px;
 }
 
-.team-info-box h2,.team-info-box p{
+.team-info-box h2,
+.team-info-box p {
   text-align: start;
   margin-bottom: 24px;
 }
 
-.team-info-box button{
+.team-info-box button {
   margin-top: 32px;
 }
 
 /* Feature section started here */
 
-/* .feature-heading{
+.title-03 {
+  color: #131313;
+  font-size: 20px;
+  font-family: Work Sans;
+  font-weight: 600;
+  word-wrap: break-word;
+}
+
+.feature-section {
+  display: flex;
+  gap: 146px;
+  margin-top: 130px;
+}
+
+.feature-heading {
   display: flex;
   gap: 21px;
 }
 
-.side-feature{
+.side-feature {
   width: 5px;
   height: 108px;
-  background-color: #FF900E;
-} */
+  background-color: #ff900e;
+}
+
+.feature-title {
+  padding-right: 200px;
+  text-align: start;
+  margin-bottom: 24px;
+}
+
+.feature-info {
+  margin-top: 40px;
+}
+
+.feature-info p {
+  margin-bottom: 30px;
+  text-align: start;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.cart-items {
+  padding: 25px;
+  background: white;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding-right: 60px;
+}
+
+.cart-items h3 {
+  margin-bottom: 10px;
+}
+
+.cart-items p {
+  text-align: start;
+  margin: 0px;
+}
+
+.feature-pic {
+  width: 100%;
+  height: 100%;
+}
+
+.feature-pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.year-card {
+  background-color: #ff900e;
+  width: 320px;
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  position: relative;
+  margin-top: -100px;
+  margin-left: -80px;
+}
 
 /* MOBILE RESPONSIVE STARTS HERE */
 
@@ -204,19 +283,21 @@ main{
     padding: 0px;
     padding: 50px 20px;
 
+    padding: 0px;
+    padding: 20px 10px;
     padding-bottom: 25px;
   }
 
   .nav-items {
-    gap: 30px;
+    gap: 20px;
+    width: 100%;
   }
 
   /* banner section started here */
 
-  .banner-section h1{
+  .banner-section h1 {
     font-size: 45px;
     line-height: 65px;
-    
   }
 
   .banner-section p {
@@ -238,33 +319,145 @@ main{
     border-radius: 8px;
   }
 
-
   /* Team section started here */
 
-  main{
+  main {
     margin: 45px 50px;
+
+    margin: 10px;
   }
-  
-  .team-section{
+
+  .team-section {
     flex-direction: column;
     margin: 0px;
   }
-  
+
   .first-row {
     flex-direction: column;
   }
-  
-  .second-row{
+
+  .second-row {
     flex-direction: column;
   }
-  
-  .team-info-box{
+
+  .team-info-box {
     margin: 0px;
     text-align: center;
   }
-  
-  .team-info-box h2,.team-info-box p{
+
+  .team-info-box h2,
+  .team-info-box p {
     text-align: center;
   }
-  
+
+  /* Feature section started here */
+
+  .feature-section {
+    display: flex;
+    gap: 146px;
+    margin-top: 130px;
+
+    flex-direction: column;
+    margin: 0px;
+    margin-top: 15px;
+    gap: 15px;
+  }
+
+  .feature-heading {
+    display: flex;
+    gap: 21px;
+
+  }
+
+  .side-feature {
+    width: 5px;
+    height: 108px;
+    background-color: #ff900e;
+
+  }
+
+  .feature-title {
+    padding-right: 200px;
+    text-align: start;
+    margin-bottom: 24px;
+
+    padding: 0px;
+    
+  }
+
+  .feature-info {
+    margin-top: 40px;
+  }
+
+  .feature-info p {
+    margin-bottom: 30px;
+    text-align: start;
+
+    text-align: center;
+  }
+
+  .cart-container {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+
+    text-align: center;
+  }
+
+  .cart-items {
+    padding: 25px;
+    background: white;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding-right: 60px;
+
+    padding: 15px;
+  }
+
+  .cart-items h3 {
+    margin-bottom: 10px;
+  }
+
+  .cart-items p {
+    text-align: start;
+    margin: 0px;
+
+    text-align: center;
+  }
+
+  .feature-pic {
+    width: 100%;
+    height: 100%;
+  }
+
+  .feature-pic img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+
+  .year-card {
+    background-color: #ff900e;
+    width: 320px;
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    margin-top: -100px;
+    margin-left: -80px;
+
+    width: 65%;
+    height: 65%;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+  }
+
+  .year-card h2{
+    font-size: 25px;
+  }
 }
