@@ -340,6 +340,7 @@ footer {
   padding: 40px 410px;
   margin: 85px 100px;
   margin-bottom: 150px;
+  width: max-content;
 }
 
 /* MOBILE RESPONSIVE STARTS HERE */ /* MOBILE RESPONSIVE STARTS HERE */ /* MOBILE RESPONSIVE STARTS HERE */
