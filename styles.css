@@ -306,14 +306,40 @@ main {
   padding: 10px 0px;
 }
 
-.fact-cart p {
-  color: var(--Dark-03, #727272);
-  text-align: center;
-  font-family: "Work Sans";
+/* Sponsor section started here */
+
+.sponsor-section {
+  margin-top: 200px;
+}
+
+.sponsor-para {
+  color: #727272;
   font-size: 16px;
-  font-style: normal;
+  font-family: Work Sans;
   font-weight: 400;
   line-height: 26px;
+  word-wrap: break-word;
+  margin-top: 24px;
+}
+
+.sponsor-cart {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 120px;
+  margin: 50px auto;
+}
+
+.sponsor-cart img {
+  filter: grayscale(100%);
+}
+
+footer {
+  background-color: #fff4e7;
+  margin: 50px auto;
+  padding: 40px 410px;
+  margin: 85px 100px;
+  margin-bottom: 150px;
 }
 
 /* MOBILE RESPONSIVE STARTS HERE */ /* MOBILE RESPONSIVE STARTS HERE */ /* MOBILE RESPONSIVE STARTS HERE */
@@ -373,6 +399,7 @@ main {
     margin: 45px 50px;
 
     margin: 10px;
+    overflow: hidden;
   }
 
   .team-section {
@@ -523,5 +550,62 @@ main {
     flex-direction: column;
     gap: 20px;
     padding: 0px 10px;
+  }
+
+  /* Sponsor section started here */
+
+  .sponsor-section {
+    margin-top: 200px;
+  }
+
+  .sponsor-para {
+    color: #727272;
+    font-size: 16px;
+    font-family: Work Sans;
+    font-weight: 400;
+    line-height: 26px;
+    word-wrap: break-word;
+    margin-top: 24px;
+  }
+
+  .sponsor-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 120px;
+    margin: 50px auto;
+
+    flex-direction: column;
+  }
+
+  .sponsor-cart img {
+    filter: grayscale(100%);
+  }
+
+  footer {
+    background-color: #fff4e7;
+    margin: 50px auto;
+    width: max-content;
+    padding: 40px 410px;
+    margin-bottom: 150px;
+
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 10px 20px;
+    /* margin: 0px 10px; */
+    margin-bottom: 50px;
+    padding: 0px;
+  }
+  footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+  }
+  footer p {
+    width: 80%;
+    word-wrap: break-word;
+    text-align: center;
   }
 }
